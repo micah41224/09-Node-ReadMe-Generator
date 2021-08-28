@@ -1,4 +1,6 @@
 // TODO: Include packages needed for this application
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -7,7 +9,10 @@ const questions = [
         name: "title",
         message: "what is the title of your project?"
     },
-    console.log(questions)
+    {
+        type:"input",
+        name: ""
+    }
 ];
 
 // TODO: Create a function to write README file
@@ -18,3 +23,6 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+
+//entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
