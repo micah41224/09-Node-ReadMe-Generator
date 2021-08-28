@@ -6,13 +6,29 @@ const fs = require('fs');
 const questions = [
     {
         type: "input",
-        name: "title",
-        message: "what is the title of your project?"
+        name: "Title",
+        message: "What is the title of your project?"
     },
     {
         type:"input",
-        name: ""
-    }
+        name: "Description",
+        message: "Please describe your project"
+    },
+    {
+        type:"input",
+        name: "ToC",
+        message: "List your table of contents"
+    },
+    {
+        type:"input",
+        name: "Installation",
+        message: "Describe the installation process for your project"
+    },
+    {
+        type:"input",
+        name: "Usage",
+        message: "Describe how your project is to be used"
+    },
 ];
 
 // TODO: Create a function to write README file
