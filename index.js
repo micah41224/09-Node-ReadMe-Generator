@@ -29,6 +29,17 @@ const questions = [
         name: "Usage",
         message: "Describe how your project is to be used"
     },
+    {
+        type:"checkbox",
+        name: "License",
+        message: "Please select the license you would like to use for this project",
+        choices: [
+            "Apache",
+            "MIT",
+            "IBM",
+            
+        ]
+    },
 ];
 
 // TODO: Create a function to write README file
