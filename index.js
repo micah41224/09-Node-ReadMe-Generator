@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const util = require("util");
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -37,8 +39,29 @@ const questions = [
             "Apache",
             "MIT",
             "IBM",
-            
+            "Mozilla",
+            "Unlicense"
         ]
+    },
+    {
+        type:"input",
+        name: "Contributing",
+        message: "Who has contributed to this repo?"
+    },
+    {
+        type:"input",
+        name: "Tests",
+        message: "What command should be issued to run tests?"
+    },
+    {
+        type:"input",
+        name: "Contributing",
+        message: "Who has contributed to this repo?"
+    },
+    {
+        type:"input",
+        name: "Questions",
+        message: "Enter an email address for users to direction questions to"
     },
 ];
 
