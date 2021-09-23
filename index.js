@@ -53,11 +53,6 @@ const questions = [
         name: "tests",
         message: "What command should be issued to run tests?"
     },
-    // {
-    //     type:"input",
-    //     name: "Contributing",
-    //     message: "Who has contributed to this repo?"
-    // },
     {
         type:"input",
         name: "github",
