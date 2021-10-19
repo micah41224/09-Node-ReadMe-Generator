@@ -16,15 +16,16 @@ const questions = [
         name: "description",
         message: "Please describe your project"
     },
-    {
-        type:"input",
-        name: "toc",
-        message: "List your table of contents"
-    },
+    // {
+    //     type:"input",
+    //     name: "toc",
+    //     message: "List your table of contents"
+    // },
     {
         type:"input",
         name: "installation",
-        message: "Describe the installation process for your project"
+        message: "Describe the installation process for your project",
+        default: "Run 'npm install' in the command line"
     },
     {
         type:"input",
@@ -51,7 +52,8 @@ const questions = [
     {
         type:"input",
         name: "tests",
-        message: "What command should be issued to run tests?"
+        message: "What command should be issued to run tests?",
+        default: "Run 'npm test' in the command line"
     },
     {
         type:"input",
