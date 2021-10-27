@@ -1,30 +1,42 @@
-## title
+# Read-me Generator
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Description
-its a project
+## Description
+A brief description of this project would be that it enables users to answer prompts to feed the app data which it will turn into a markdown file which can serve as the Read-me for their project
 
-# Table of Contents
+## Table of Contents
 
-# Installation
-default
+* [Installation](#installation)
 
-# Usage
-for happiness
+* [Usage](#usage)
 
-# License
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Contact Info](#github)
+
+## Installation
+Run 'npm install' in the command line
+
+## Usage
+This project will be used by users (hmmm redundant) to create read-me files for their projects
+
+## License
 MIT
 
-# Contributing
-me
+## Contributing
+Michael Feldman
 
-# Tests
-npm test
+## Tests
+Run 'npm test' in the command line
 
-# Github Name
-micah41224
+## Github Name
+github.com/micah41224
 
-# Email Address
-micah41224
+## Email Address
+micah41224@gmail.com
 
