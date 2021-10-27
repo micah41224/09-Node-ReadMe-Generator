@@ -1,9 +1,9 @@
-# Read-me Generator
+# Title
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 
 ## Description
-A brief description of this project would be that it enables users to answer prompts to feed the app data which it will turn into a markdown file which can serve as the Read-me for their project
+Desc
 
 ## Table of Contents
 
@@ -23,20 +23,27 @@ A brief description of this project would be that it enables users to answer pro
 Run 'npm install' in the command line
 
 ## Usage
-This project will be used by users (hmmm redundant) to create read-me files for their projects
+Used
 
 ## License
-MIT
+ISC
+
+
+## License 
+      Copyright © ISC. All rights reserved. 
+      
+      Licensed under the ISC license.
 
 ## Contributing
-Michael Feldman
+Me
 
 ## Tests
 Run 'npm test' in the command line
 
-## Github Name
-github.com/micah41224
+## Questions?
 
-## Email Address
-micah41224@gmail.com
+* Github Site: github.com/user
+
+* Email Address: addres
+
 
