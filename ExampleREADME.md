@@ -3,7 +3,7 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-A brief description of this project would be that it enables users to answer prompts to feed the app data which it will turn into a markdown file which can serve as the Read-me for their project
+This command-line application enables users to answer prompts which will feed the application data. This data will be used to fill out a markdown file which can serve as the Read-me for the user's project.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ A brief description of this project would be that it enables users to answer pro
 Run 'npm install' in the command line
 
 ## Usage
-This project will be used by users (hmmm redundant) to create read-me files for their projects
+This project will be employed by users to create high quality read-me files for their projects.
 
 ## License 
       
